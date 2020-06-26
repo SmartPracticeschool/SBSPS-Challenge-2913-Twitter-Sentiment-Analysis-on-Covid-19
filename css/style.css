@@ -1,0 +1,210 @@
+body{
+ padding: 0px;
+ margin: 0px;
+ background: rgb(241, 233, 233);
+    overflow-x:hidden;
+    }
+
+.nav-bar{
+    position: fixed;
+    z-index:1;
+}
+
+header{
+    background:#7d8686;
+    height: 93px;
+    width: 1250%;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    margin-top: 0px; 
+    float: inline-start;
+}
+
+header.logo{
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header *{
+    color:whitesmoke;  /*span color change*/
+}
+
+header .logo-text{
+    margin: 8px; 
+    /* padding: 9px;  */
+  }
+
+header .logo-dist{
+   padding: 5px;
+  }
+
+header ul li a:hover{
+      background: #006b6eb6;
+    transition: 0.5s;
+    margin-block: 2px;
+    padding: 22px;
+  }
+
+header .logo-text span{
+color: rgb(40, 171, 204)
+}
+
+header ul{
+ float: right;
+ margin: -60px;
+ padding-right: 60px;
+ /* border: solid red; */
+ list-style: none;
+ font-weight: bold;
+}
+
+header ul li{
+    float: left;
+    position: relative;
+}
+
+header ul li a{
+    display: block;
+    padding: 18px;
+    font-size: 12pt;
+}
+
+header.menu-toggle{
+    display: none;
+}
+
+ .boxedleft { 
+    border: 1px solid white ;
+    height: 33.4cm;
+    width: 20cm;
+    margin: 6px;
+    margin-left: 14px;
+    margin-top: 138px;
+    float: left;
+    background-color: white;
+  }
+
+.boxedright{
+      border: 1px solid white;
+      /* box-shadow: #465b5c ; */
+      height: 32cm;
+      width: 12cm;
+      margin: 5px;
+      margin-top: 190px;
+      margin-right: 20px;
+      float: right;
+      background-color: white;
+  }
+
+.txt2{
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-size: 12pt; */
+    color: #879091;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 14pt;
+    /* text-decoration: underline; */
+}
+
+.heading{
+  text-align: left;
+  color: #008489;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  outline: black;
+  text-shadow: 2px 2px  #465b5c; 
+  margin-left: 10px;
+  letter-spacing: 2px;
+  font-size: 150%; 
+}
+
+.txt1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    color: black;
+    text-align: justify;
+    margin: 10px;
+    letter-spacing: 2px;
+    line-height: 18pt;
+  }
+
+body .footer{
+    height: 7cm; 
+    width: 138%; 
+    background-color: #6a6b6b; 
+    float: inline-end;
+    margin-top: 20px;
+}
+
+.boxedleftTypes { 
+    border: 1px solid white ;
+    height: 33.4cm;
+    width: 27cm;
+    margin: 6px;
+    margin-left: 100px;
+    margin-top: 138px;
+    float: left;
+    background-color: white;
+  } 
+
+  
+
+.topimgone{
+    
+    height: 5cm;
+    width:3cm;
+}
+
+.backimgone{ 
+ height: 50cm;
+ width: 40cm;
+}
+
+#box{
+  
+   background-color: #333;
+   background-position-x: center;
+}
+
+#boxx .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    align-self: center;
+  }
+  
+  #boxx .button5:hover {
+    background-color: #4d4b4b;
+    color: white;
+  }
+  
+  #box .button5 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #box .button5:hover {
+    background-color: black;
+  }
+
+  #graphbox{
+    height: 13cm;
+    width: 1190px;
+    border: 3px solid rgb(119, 126, 119);
+    padding: 40px;
+    margin: 10px;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
